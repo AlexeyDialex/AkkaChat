@@ -13,7 +13,7 @@ import javafx.stage.Stage
 import scala.collection.immutable
 
 //запускаем окно для ввода параметров кластера
-class StartApp extends Application {
+class StartWindow extends Application {
 
   def start(primaryStage: Stage) = {
     primaryStage.setTitle("Configuration")
@@ -72,7 +72,7 @@ class StartApp extends Application {
     root.getRowConstraints().add(new RowConstraints(40))
     root.getRowConstraints().add(new RowConstraints(40))
     root.getRowConstraints().add(new RowConstraints(40))
-    root.getRowConstraints().add(new RowConstraints(40))
+    root.getRowConstraints().add(new RowConstraints(80))
 
     root.setPadding(new Insets(10, 10, 10, 10))
     root.add(selfPortLabel, 0, 2)
@@ -85,11 +85,11 @@ class StartApp extends Application {
     root.add(seedPortText, 4, 2)
     root.add(seedPortError, 3, 3, 2, 1)
     root.add(startClusterButton, 2, 4)
-    root.add(startClusterError, 0, 5, 2, 1)
+    root.add(startClusterError, 0, 5, 5, 1)
     GridPane.setHalignment(startClusterButton, HPos.CENTER)
     root.setPadding(new Insets(10, 10, 10, 10))
 
-    val scene = new Scene(root, 400, 250);
+    val scene = new Scene(root, 500, 300);
     scene.setOnKeyPressed((e: KeyEvent) => {
       if (e.getCode == KeyCode.ENTER) {
         val congigData = immutable.HashMap[String, String]("selfPort" -> selfPortText.getText(),
@@ -110,8 +110,8 @@ class StartApp extends Application {
   }
 }
 
-object StartApp {
+object StartWindow {
   def main(args: Array[String]) {
-    Application.launch(classOf[StartApp], args: _*)
+    Application.launch(classOf[StartWindow], args: _*)
   }
 }

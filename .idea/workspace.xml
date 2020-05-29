@@ -5,7 +5,60 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb01a76c-e921-4979-bf59-ea1c91363c5b" name="Default Changelist" comment="" />
+    <list default="true" id="fb01a76c-e921-4979-bf59-ea1c91363c5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$3c32dea67315f3f1476a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AleksChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AleksChat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dd37844e8fdb350a3e13$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3c32dea67315f3f1476a$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dd37844e8fdb350a3e13.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3c32dea67315f3f1476a.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dd37844e8fdb350a3e13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/actors/ChatStorage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/actors/ChatStorage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/actors/ClusterConfigs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/actors/ClusterConfigs.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/actors/JavaFxChatActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/actors/JavaFxChatActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/actors/StartCluster.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/actors/StartCluster.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/actors/UserManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/actors/UserManagement.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/gui/AuthorizationWindow.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/gui/AuthorizationWindow.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/gui/ChatWindow.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/gui/ChatWindow.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chat/gui/StartApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chat/gui/StartWindow.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/alekschat_2.13-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/alekschat_2.13-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/ChatStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/ChatStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/ClusterConfig$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/ClusterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/JavaFxChatActor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/JavaFxChatActor$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/JavaFxChatActor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/JavaFxChatActor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Logged$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Logged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Login$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Logout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Logout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/MessageManagement$$anonfun$messageManagement$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/MessageManagement$$anonfun$messageManagement$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/StartCluster$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/StartCluster$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Unlogged$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/Unlogged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/UserManagement$$anonfun$userManagement$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/actors/UserManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/gui/AuthorizationWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/gui/ChatWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/gui/StartApp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/chat/gui/StartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +72,9 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -31,7 +87,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/chat/actors" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -97,18 +153,18 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="180" key="#Project_Structure" timestamp="1586012335634">
+    <state x="552" y="180" key="#Project_Structure" timestamp="1590680298638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="180" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586012335634" />
-    <state x="690" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590647889366">
+    <state x="552" y="180" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590680298638" />
+    <state x="690" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590672751876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590647889366" />
-    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590645108415">
+    <state x="690" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590672751876" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590673057346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590645108415" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590673057346" />
     <state x="765" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1590396806423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -137,10 +193,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="246" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588868386751" />
-    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1590420358610">
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1590677549021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590420358610" />
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590677549021" />
     <state x="616" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1590421072921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

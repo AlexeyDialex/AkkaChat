@@ -14,7 +14,7 @@ class JavaFxChatActor(val primaryStage: Stage) extends Actor with ActorLogging
 
   val cluster = Cluster(context.system)
   primaryStage.hide()
-  var currentName = "Kevin"
+  var currentName = "Noname"
   val authWindow = new AuthorizationWindow(primaryStage, this)
   val chatWindow = new ChatWindow(primaryStage, this)
 
@@ -41,7 +41,6 @@ class JavaFxChatActor(val primaryStage: Stage) extends Actor with ActorLogging
     stories += (userName -> " ")
     context.watch(ref)
     chatWindow.addUserNameButton(userName)
-    log.info("adding user: {}, {}", userName, ref)
   }
 
   def removeUser(userName: String) = {
@@ -49,8 +48,6 @@ class JavaFxChatActor(val primaryStage: Stage) extends Actor with ActorLogging
     users -= (userName)
     stories -= (userName)
     chatWindow.removeUserNameButton(userName)
-    chatWindow.removeUserNameButton(userName)
-    log.info("removing user: {}", userName)
   }
 }
 

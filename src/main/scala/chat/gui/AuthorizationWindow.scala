@@ -8,7 +8,7 @@ import javafx.scene.control.{Button, Label, TextField}
 import javafx.scene.input.{KeyCode, KeyEvent}
 import javafx.scene.layout.{FlowPane, VBox}
 import javafx.scene.paint.Color
-import javafx.stage.{Modality, Stage}
+import javafx.stage.{Modality, Stage, WindowEvent}
 
 class AuthorizationWindow(primaryStage: Stage, javaFxChatActor: JavaFxChatActor) extends Stage{
 
@@ -26,20 +26,29 @@ class AuthorizationWindow(primaryStage: Stage, javaFxChatActor: JavaFxChatActor)
   authRoot.setAlignment(Pos.CENTER)
 
   login.setOnAction((e: ActionEvent) => {
-    javaFxChatActor.validateName(nameText.getText())
+    sendName(nameText.getText())
   })
   val scene = new Scene(authRoot, 250, 200)
   scene.setOnKeyPressed((e: KeyEvent) => {
     if (e.getCode == KeyCode.ENTER){
-      javaFxChatActor.validateName(nameText.getText())
+      sendName(nameText.getText())
     }
   })
   this.setScene(scene)
   this.initModality(Modality.NONE)
   this.initOwner(primaryStage)
   this.show()
+  this.setOnCloseRequest((e: WindowEvent) => {
+    javaFxChatActor.stopActorSystem()
+    primaryStage.close()
+  })
 
-  def unsuccessfulAuthorization(errorText: String) = {
-    errorRaport.setText(errorText)
+  def sendName(name: String): Unit = {
+    javaFxChatActor.currentName = name
+    if (name.matches("""[a-zA-Z0-9]+""") & name.size < 20){
+      javaFxChatActor.loginCluster(name)
+    } else {
+      errorRaport.setText("only letters and numbers, max length 20")
+    }
   }
 }

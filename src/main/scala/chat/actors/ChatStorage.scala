@@ -1,5 +1,8 @@
 package chat.actors
 
+import java.text.SimpleDateFormat
+import java.util.{Calendar, TimeZone}
+
 import akka.actor.ActorRef
 
 import scala.collection.mutable
@@ -21,16 +24,16 @@ trait ChatStorage {
     if (!getAllUserNames().contains(userName)) {
       stories += (userName -> " ")
     }
-    stories(userName) = stories(userName) + "\n" + userName + ": " + message
+    stories(userName) = stories(userName) + "\n" + getTime()+ " [" + userName + "]: " + message
     println(s"story: ${stories(userName)}")
   }
 
-  def appendStoryToMyself(userName: String, message: String): Unit = {
-    stories(userName) = stories(userName) + "\n" + currentName + ": " + message
+  def appendMyStory(userName: String, message: String): Unit = {
+    stories(userName) = stories(userName) + "\n"  + getTime()+ " [" + currentName + "]: " + message
   }
 
   def appendPublishStory(userName: String, message: String): Unit = {
-    publishStory = publishStory + "\n" + userName + ": " + message
+    publishStory = publishStory + "\n" + getTime()+ " [" + userName + "]: " + message
   }
 
   def getStory(userName: String): String = {
@@ -55,5 +58,12 @@ trait ChatStorage {
 
   def getAllUserRefs(): List[ActorRef] = {
     users.values.toList
+  }
+  def getTime() = {
+
+    val now = Calendar.getInstance().getTime()
+    val timeFormat = new SimpleDateFormat("dd.MM.YYYY HH:mm")
+    timeFormat.setTimeZone(TimeZone.getTimeZone("Europe/Samara"))
+    timeFormat.format(now)
   }
 }

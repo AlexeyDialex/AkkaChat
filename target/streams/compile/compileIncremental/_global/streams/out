@@ -1,317 +1,41 @@
 [debug] 
 [debug] Initial source changes: 
-[debug] 	removed:Set(D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\ChatStorage.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\ClusterConfigWindow.scala)
-[debug] 	added: Set(D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\StartApp.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\ChatStorage.scala)
-[debug] 	modified: Set(D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\ChatWindow.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\ClusterConfigs.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\MessageManagement.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\UserManagement.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\AuthorizationWindow.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\ChatView.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\JavaFxChatActor.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\StartCluster.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\JavaFXEventThreadExecutorServiceConfigurator.scala)
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\StartWindow.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\ChatWindow.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\ClusterConfigs.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\UserManagement.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\AuthorizationWindow.scala)
 [debug] Invalidated products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set(chat.actors.JavaFXExecutorService, chat.gui.ClusterConfigWindow, chat.actors.SendPrivate, chat.actors.Logged, chat.actors.SendPublish, chat.actors.PrivateMessage, chat.actors.Message, chat.actors.Login, chat.actors.PublishMessage, chat.actors.MessageManagement, chat.gui.ChatView, chat.actors.ClusterConfig, chat.actors.Event, chat.actors.JavaFxChatActor, chat.gui.ChatStorage, chat.actors.GUIExecutorService, chat.actors.StartCluster, chat.gui.ChatWindow, chat.actors.UserManagement, chat.actors.JavaFXEventThreadExecutorServiceConfigurator, chat.actors.Unlogged, chat.actors.Logout, chat.gui.AuthorizationWindow)
+[debug] Initial directly invalidated classes: Set(chat.actors.Logged, chat.actors.Login, chat.actors.ClusterConfig, chat.actors.Event, chat.gui.StartWindow, chat.gui.ChatWindow, chat.actors.UserManagement, chat.actors.Unlogged, chat.actors.Logout, chat.gui.AuthorizationWindow)
 [debug] 
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All sources are invalidated.
-[debug] Initial set of included nodes: chat.actors.JavaFXExecutorService, chat.gui.ClusterConfigWindow, chat.actors.SendPrivate, chat.actors.Logged, chat.actors.SendPublish, chat.actors.PrivateMessage, chat.actors.Message, chat.actors.Login, chat.actors.PublishMessage, chat.actors.MessageManagement, chat.gui.ChatView, chat.actors.ClusterConfig, chat.actors.Event, chat.actors.JavaFxChatActor, chat.gui.ChatStorage, chat.actors.GUIExecutorService, chat.actors.StartCluster, chat.gui.ChatWindow, chat.actors.UserManagement, chat.actors.JavaFXEventThreadExecutorServiceConfigurator, chat.actors.Unlogged, chat.actors.Logout, chat.gui.AuthorizationWindow
-[debug] Including chat.actors.PublishMessage by chat.actors.Message
-[debug] Including chat.actors.JavaFxChatActor by chat.actors.MessageManagement
-[debug] Including chat.gui.ChatWindow by chat.gui.ChatView
+[debug] All initially invalidated classes: Set(chat.actors.Logged, chat.actors.Login, chat.actors.ClusterConfig, chat.actors.Event, chat.gui.StartWindow, chat.gui.ChatWindow, chat.actors.UserManagement, chat.actors.Unlogged, chat.actors.Logout, chat.gui.AuthorizationWindow)
+[debug] All initially invalidated sources:Set(D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\StartWindow.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\ChatWindow.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\ClusterConfigs.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\actors\UserManagement.scala, D:\MyJava\!Scala\AlexAkkaChat\src\main\scala\chat\gui\AuthorizationWindow.scala)
+[debug] Initial set of included nodes: chat.actors.Logged, chat.actors.Login, chat.actors.ClusterConfig, chat.actors.Event, chat.gui.StartWindow, chat.gui.ChatWindow, chat.actors.UserManagement, chat.actors.Unlogged, chat.actors.Logout, chat.gui.AuthorizationWindow
 [debug] Including chat.actors.Unlogged by chat.actors.Event
 [debug] Including chat.actors.Logout by chat.actors.Event
-[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
-[info] Compiling 11 Scala sources to D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes ...
+[debug] Including chat.actors.JavaFxChatActor by chat.actors.UserManagement
+[info] Compiling 5 Scala sources to D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.1
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.1
-[debug] [zinc] Running cached compiler 18e4bd70 for Scala compiler version 2.13.1
+[debug] [zinc] Running cached compiler 678807ef for Scala compiler version 2.13.1
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
 [debug] 	-classpath
 [debug] 	D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.5\akka-actor_2.13-2.6.5.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-cluster_2.13\2.6.5\akka-cluster_2.13-2.6.5.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-serialization-jackson_2.13\2.6.5\akka-serialization-jackson_2.13-2.6.5.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-remote_2.13\2.6.5\akka-remote_2.13-2.6.5.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.10.3\jackson-module-scala_2.13-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.3\jackson-datatype-jdk8-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.3\jackson-datatype-jsr310-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-parameter-names\2.10.3\jackson-module-parameter-names-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.10.3\jackson-dataformat-cbor-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-stream_2.13\2.6.5\akka-stream_2.13-2.6.5.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\agrona\agrona\1.4.1\agrona-1.4.1.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-paranamer\2.10.3\jackson-module-paranamer-2.10.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-protobuf-v3_2.13\2.6.5\akka-protobuf-v3_2.13-2.6.5.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.13\0.4.1\ssl-config-core_2.13-0.4.1.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\Alex\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar
-[debug] Scala compilation took 16.894081414 s
+[debug] Scala compilation took 12.175297638 s
 [info] Done compiling.
-[debug] Invalidating (transitively) by inheritance from chat.actors.Logged...
-[debug] Initial set of included nodes: chat.actors.Logged
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.Logged)
-[debug] Change NamesChange(chat.actors.Logged,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.Logged has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.Logged)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.gui.ClusterConfigWindow...
-[debug] Initial set of included nodes: chat.gui.ClusterConfigWindow
-[debug] Invalidated by transitive inheritance dependency: Set(chat.gui.ClusterConfigWindow)
-[debug] Change NamesChange(chat.gui.ClusterConfigWindow,ModifiedNames(changes = UsedName(start,[Default]), UsedName(clone,[Default]), UsedName(init,[Default]), UsedName(validateIP,[Default]), UsedName(notifyPreloader,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(validatePort,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(chat;gui;ClusterConfigWindow;init;,[Default]), UsedName(!=,[Default]), UsedName(getHostServices,[Default]), UsedName(stop,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ClusterConfigWindow,[Default]), UsedName(main,[Default]), UsedName(getParameters,[Default]), UsedName(synchronized,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.gui.ClusterConfigWindow has the following regular definitions changed:
-[debug] 	UsedName(start,[Default]), UsedName(clone,[Default]), UsedName(init,[Default]), UsedName(validateIP,[Default]), UsedName(notifyPreloader,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(validatePort,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(chat;gui;ClusterConfigWindow;init;,[Default]), UsedName(!=,[Default]), UsedName(getHostServices,[Default]), UsedName(stop,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(ClusterConfigWindow,[Default]), UsedName(main,[Default]), UsedName(getParameters,[Default]), UsedName(synchronized,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.gui.ClusterConfigWindow)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.JavaFXExecutorService...
-[debug] Initial set of included nodes: chat.actors.JavaFXExecutorService
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.JavaFXExecutorService)
-[debug] Change NamesChange(chat.actors.JavaFXExecutorService,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.JavaFXExecutorService has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.JavaFXExecutorService)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.gui.ChatStorage...
-[debug] Initial set of included nodes: chat.gui.ChatStorage
-[debug] Invalidated by transitive inheritance dependency: Set(chat.gui.ChatStorage)
-[debug] Change NamesChange(chat.gui.ChatStorage,ModifiedNames(changes = UsedName(stories,[Default]), UsedName(removeStory,[Default]), UsedName(clone,[Default]), UsedName(appendStoryToMyself,[Default]), UsedName(getRef,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(getAllUserNames,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(appendStory,[Default]), UsedName(appendPublishStory,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(defaultRoom,[Default]), UsedName(ChatStorage,[Default]), UsedName(getUserName,[Default]), UsedName(eq,[Default]), UsedName(currentName,[Default]), UsedName(users,[Default]), UsedName(synchronized,[Default]), UsedName(getAllUserRefs,[Default]), UsedName(getClass,[Default]), UsedName(publishStory,[Default]))) invalidates 1 classes due to The chat.gui.ChatStorage has the following regular definitions changed:
-[debug] 	UsedName(stories,[Default]), UsedName(removeStory,[Default]), UsedName(clone,[Default]), UsedName(appendStoryToMyself,[Default]), UsedName(getRef,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(getAllUserNames,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(appendStory,[Default]), UsedName(appendPublishStory,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(defaultRoom,[Default]), UsedName(ChatStorage,[Default]), UsedName(getUserName,[Default]), UsedName(eq,[Default]), UsedName(currentName,[Default]), UsedName(users,[Default]), UsedName(synchronized,[Default]), UsedName(getAllUserRefs,[Default]), UsedName(getClass,[Default]), UsedName(publishStory,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.gui.ChatStorage)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.gui.AuthorizationWindow...
-[debug] Initial set of included nodes: chat.gui.AuthorizationWindow
-[debug] Invalidated by transitive inheritance dependency: Set(chat.gui.AuthorizationWindow)
-[debug] None of the modified names appears in source file of chat.actors.JavaFxChatActor. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.UserManagement. This dependency is not being considered for invalidation.
-[debug] Change NamesChange(chat.gui.AuthorizationWindow,ModifiedNames(changes = UsedName(outputScaleYProperty,[Default]), UsedName(isForceIntegerRenderScale,[Default]), UsedName(clone,[Default]), UsedName(impl_setPrimary,[Default]), UsedName(getOutputScaleX,[Default]), UsedName(setPeer,[Default]), UsedName(getPeer,[Default]), UsedName(forceIntegerRenderScaleProperty,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(impl_getPeer,[Default]), UsedName(updateRenderScales,[Default]), UsedName(renderScaleYProperty,[Default]), UsedName(impl_getMXWindowType,[Default]), UsedName(setRenderScaleY,[Default]), UsedName(renderScaleXProperty,[Default]), UsedName(outputScaleXProperty,[Default]), UsedName(getPeerListener,[Default]), UsedName(notify,[Default]), UsedName(setPeerListener,[Default]), UsedName(setForceIntegerRenderScale,[Default]), UsedName(peerListener,[Default]), UsedName(getOutputScaleY,[Default]), UsedName(setRenderScaleX,[Default]), UsedName(impl_visibleChanged,[Default]), UsedName(impl_setImportant,[Default]), UsedName(getRenderScaleY,[Default]), UsedName(setFocused,[Default]), UsedName(impl_peer,[Default]), UsedName(impl_visibleChanging,[Default]), UsedName(setImportant,[Default]), UsedName(getRenderScaleX,[Default]), UsedName(setPrimary,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.gui.AuthorizationWindow has the following regular definitions changed:
-[debug] 	UsedName(outputScaleYProperty,[Default]), UsedName(isForceIntegerRenderScale,[Default]), UsedName(clone,[Default]), UsedName(impl_setPrimary,[Default]), UsedName(getOutputScaleX,[Default]), UsedName(setPeer,[Default]), UsedName(getPeer,[Default]), UsedName(forceIntegerRenderScaleProperty,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(impl_getPeer,[Default]), UsedName(updateRenderScales,[Default]), UsedName(renderScaleYProperty,[Default]), UsedName(impl_getMXWindowType,[Default]), UsedName(setRenderScaleY,[Default]), UsedName(renderScaleXProperty,[Default]), UsedName(outputScaleXProperty,[Default]), UsedName(getPeerListener,[Default]), UsedName(notify,[Default]), UsedName(setPeerListener,[Default]), UsedName(setForceIntegerRenderScale,[Default]), UsedName(peerListener,[Default]), UsedName(getOutputScaleY,[Default]), UsedName(setRenderScaleX,[Default]), UsedName(impl_visibleChanged,[Default]), UsedName(impl_setImportant,[Default]), UsedName(getRenderScaleY,[Default]), UsedName(setFocused,[Default]), UsedName(impl_peer,[Default]), UsedName(impl_visibleChanging,[Default]), UsedName(setImportant,[Default]), UsedName(getRenderScaleX,[Default]), UsedName(setPrimary,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.gui.AuthorizationWindow)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.gui.StartApp...
-[debug] Initial set of included nodes: chat.gui.StartApp
-[debug] Invalidated by transitive inheritance dependency: Set(chat.gui.StartApp)
-[debug] Change NamesChange(chat.gui.StartApp,ModifiedNames(changes = UsedName(start,[Default]), UsedName(clone,[Default]), UsedName(chat;gui;StartApp;init;,[Default]), UsedName(init,[Default]), UsedName(validateIP,[Default]), UsedName(notifyPreloader,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(validatePort,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(getHostServices,[Default]), UsedName(stop,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(StartApp,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(main,[Default]), UsedName(getParameters,[Default]), UsedName(synchronized,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.gui.StartApp has the following regular definitions changed:
-[debug] 	UsedName(start,[Default]), UsedName(clone,[Default]), UsedName(chat;gui;StartApp;init;,[Default]), UsedName(init,[Default]), UsedName(validateIP,[Default]), UsedName(notifyPreloader,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(validatePort,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(getHostServices,[Default]), UsedName(stop,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(StartApp,[Default]), UsedName($isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(main,[Default]), UsedName(getParameters,[Default]), UsedName(synchronized,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.gui.StartApp)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.JavaFXEventThreadExecutorServiceConfigurator...
-[debug] Initial set of included nodes: chat.actors.JavaFXEventThreadExecutorServiceConfigurator
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.JavaFXEventThreadExecutorServiceConfigurator)
-[debug] Change NamesChange(chat.actors.JavaFXEventThreadExecutorServiceConfigurator,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.JavaFXEventThreadExecutorServiceConfigurator has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.JavaFXEventThreadExecutorServiceConfigurator)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.Message...
-[debug] Initial set of included nodes: chat.actors.Message
-[debug] Including chat.actors.PublishMessage by chat.actors.Message
-[debug] Including chat.actors.PrivateMessage by chat.actors.Message
-[debug] Including chat.actors.SendPrivate by chat.actors.Message
-[debug] Including chat.actors.SendPublish by chat.actors.Message
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.SendPrivate, chat.actors.SendPublish, chat.actors.PrivateMessage, chat.actors.Message, chat.actors.PublishMessage)
-[debug] Change NamesChange(chat.actors.Message,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 5 classes due to The chat.actors.Message has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.SendPrivate, chat.actors.SendPublish, chat.actors.PrivateMessage, chat.actors.Message, chat.actors.PublishMessage)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.gui.ChatWindow...
-[debug] Initial set of included nodes: chat.gui.ChatWindow
-[debug] Invalidated by transitive inheritance dependency: Set(chat.gui.ChatWindow)
-[debug] None of the modified names appears in source file of chat.actors.JavaFxChatActor. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.MessageManagement. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.UserManagement. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.Event. This dependency is not being considered for invalidation.
-[debug] Change NamesChange(chat.gui.ChatWindow,ModifiedNames(changes = UsedName(outputScaleYProperty,[Default]), UsedName(isForceIntegerRenderScale,[Default]), UsedName(clone,[Default]), UsedName(impl_setPrimary,[Default]), UsedName(getOutputScaleX,[Default]), UsedName(setPeer,[Default]), UsedName(getPeer,[Default]), UsedName(forceIntegerRenderScaleProperty,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(impl_getPeer,[Default]), UsedName(updateRenderScales,[Default]), UsedName(renderScaleYProperty,[Default]), UsedName(impl_getMXWindowType,[Default]), UsedName(setRenderScaleY,[Default]), UsedName(renderScaleXProperty,[Default]), UsedName(outputScaleXProperty,[Default]), UsedName(getPeerListener,[Default]), UsedName(notify,[Default]), UsedName(setPeerListener,[Default]), UsedName(setForceIntegerRenderScale,[Default]), UsedName(peerListener,[Default]), UsedName(getOutputScaleY,[Default]), UsedName(setRenderScaleX,[Default]), UsedName(impl_visibleChanged,[Default]), UsedName(impl_setImportant,[Default]), UsedName(getRenderScaleY,[Default]), UsedName(setFocused,[Default]), UsedName(impl_peer,[Default]), UsedName(impl_visibleChanging,[Default]), UsedName(setImportant,[Default]), UsedName(getRenderScaleX,[Default]), UsedName(setPrimary,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.gui.ChatWindow has the following regular definitions changed:
-[debug] 	UsedName(outputScaleYProperty,[Default]), UsedName(isForceIntegerRenderScale,[Default]), UsedName(clone,[Default]), UsedName(impl_setPrimary,[Default]), UsedName(getOutputScaleX,[Default]), UsedName(setPeer,[Default]), UsedName(getPeer,[Default]), UsedName(forceIntegerRenderScaleProperty,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(impl_getPeer,[Default]), UsedName(updateRenderScales,[Default]), UsedName(renderScaleYProperty,[Default]), UsedName(impl_getMXWindowType,[Default]), UsedName(setRenderScaleY,[Default]), UsedName(renderScaleXProperty,[Default]), UsedName(outputScaleXProperty,[Default]), UsedName(getPeerListener,[Default]), UsedName(notify,[Default]), UsedName(setPeerListener,[Default]), UsedName(setForceIntegerRenderScale,[Default]), UsedName(peerListener,[Default]), UsedName(getOutputScaleY,[Default]), UsedName(setRenderScaleX,[Default]), UsedName(impl_visibleChanged,[Default]), UsedName(impl_setImportant,[Default]), UsedName(getRenderScaleY,[Default]), UsedName(setFocused,[Default]), UsedName(impl_peer,[Default]), UsedName(impl_visibleChanging,[Default]), UsedName(setImportant,[Default]), UsedName(getRenderScaleX,[Default]), UsedName(setPrimary,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.gui.ChatWindow)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.GUIExecutorService...
-[debug] Initial set of included nodes: chat.actors.GUIExecutorService
-[debug] Including chat.actors.JavaFXExecutorService by chat.actors.GUIExecutorService
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.GUIExecutorService, chat.actors.JavaFXExecutorService)
-[debug] Change NamesChange(chat.actors.GUIExecutorService,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 2 classes due to The chat.actors.GUIExecutorService has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.GUIExecutorService, chat.actors.JavaFXExecutorService)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.JavaFxChatActor...
-[debug] Initial set of included nodes: chat.actors.JavaFxChatActor
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.JavaFxChatActor)
-[debug] The following modified names cause invalidation of chat.actors.MessageManagement: Set(UsedName(JavaFxChatActor,[Default]))
-[debug] The following modified names cause invalidation of chat.gui.ChatView: Set(UsedName(JavaFxChatActor,[Default]))
-[debug] The following modified names cause invalidation of chat.actors.StartCluster: Set(UsedName(JavaFxChatActor,[Default]))
-[debug] The following modified names cause invalidation of chat.gui.ChatWindow: Set(UsedName(JavaFxChatActor,[Default]))
-[debug] The following modified names cause invalidation of chat.actors.UserManagement: Set(UsedName(JavaFxChatActor,[Default]))
-[debug] The following modified names cause invalidation of chat.gui.AuthorizationWindow: Set(UsedName(JavaFxChatActor,[Default]))
-[debug] Change NamesChange(chat.actors.JavaFxChatActor,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(JavaFxChatActor,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 7 classes due to The chat.actors.JavaFxChatActor has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(JavaFxChatActor,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.JavaFxChatActor)
-[debug] 	> 
-[debug] 	> by member reference: Set(chat.actors.MessageManagement, chat.gui.ChatView, chat.actors.StartCluster, chat.gui.ChatWindow, chat.actors.UserManagement, chat.gui.AuthorizationWindow)
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.SendPrivate...
-[debug] Initial set of included nodes: chat.actors.SendPrivate
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.SendPrivate)
-[debug] Change NamesChange(chat.actors.SendPrivate,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.SendPrivate has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.SendPrivate)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.SendPublish...
-[debug] Initial set of included nodes: chat.actors.SendPublish
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.SendPublish)
-[debug] Change NamesChange(chat.actors.SendPublish,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.SendPublish has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.SendPublish)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.gui.ChatView...
-[debug] Initial set of included nodes: chat.gui.ChatView
-[debug] Including chat.gui.ChatWindow by chat.gui.ChatView
-[debug] Invalidated by transitive inheritance dependency: Set(chat.gui.ChatWindow, chat.gui.ChatView)
-[debug] None of the modified names appears in source file of chat.actors.JavaFxChatActor. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.MessageManagement. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.UserManagement. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.Event. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.gui.ChatWindow. This dependency is not being considered for invalidation.
-[debug] Change NamesChange(chat.gui.ChatView,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 2 classes due to The chat.gui.ChatView has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.gui.ChatWindow, chat.gui.ChatView)
-[debug] 	> 
-[debug] 	> 
-[debug]         
 [debug] Invalidating (transitively) by inheritance from chat.actors.ClusterConfig...
 [debug] Initial set of included nodes: chat.actors.ClusterConfig
 [debug] Invalidated by transitive inheritance dependency: Set(chat.actors.ClusterConfig)
-[debug] None of the modified names appears in source file of chat.gui.StartApp. This dependency is not being considered for invalidation.
-[debug] Change NamesChange(chat.actors.ClusterConfig,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.ClusterConfig has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
+[debug] None of the modified names appears in source file of chat.gui.StartWindow. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(chat.actors.ClusterConfig,ModifiedNames(changes = UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notify,[Default]), UsedName(notifyAll,[Default]))) invalidates 1 classes due to The chat.actors.ClusterConfig has the following regular definitions changed:
+[debug] 	UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notify,[Default]), UsedName(notifyAll,[Default]).
 [debug] 	> by transitive inheritance: Set(chat.actors.ClusterConfig)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.Logout...
-[debug] Initial set of included nodes: chat.actors.Logout
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.Logout)
-[debug] Change NamesChange(chat.actors.Logout,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.Logout has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.Logout)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.Unlogged...
-[debug] Initial set of included nodes: chat.actors.Unlogged
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.Unlogged)
-[debug] Change NamesChange(chat.actors.Unlogged,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.Unlogged has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.Unlogged)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.UserManagement...
-[debug] Initial set of included nodes: chat.actors.UserManagement
-[debug] Including chat.actors.JavaFxChatActor by chat.actors.UserManagement
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.UserManagement, chat.actors.JavaFxChatActor)
-[debug] None of the modified names appears in source file of chat.gui.AuthorizationWindow. This dependency is not being considered for invalidation.
-[debug] The following modified names cause invalidation of chat.actors.JavaFxChatActor: Set(UsedName(chatWindow,[Default]))
-[debug] The following modified names cause invalidation of chat.actors.MessageManagement: Set(UsedName(chatWindow,[Default]))
-[debug] None of the modified names appears in source file of chat.gui.ChatView. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.StartCluster. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.gui.ChatWindow. This dependency is not being considered for invalidation.
-[debug] The following modified names cause invalidation of chat.actors.UserManagement: Set(UsedName(chatWindow,[Default]))
-[debug] None of the modified names appears in source file of chat.gui.AuthorizationWindow. This dependency is not being considered for invalidation.
-[debug] Change NamesChange(chat.actors.UserManagement,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(chatWindow,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 3 classes due to The chat.actors.UserManagement has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(chatWindow,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.UserManagement, chat.actors.JavaFxChatActor)
-[debug] 	> 
-[debug] 	> by member reference: Set(chat.actors.JavaFxChatActor, chat.actors.MessageManagement, chat.actors.UserManagement)
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.StartCluster...
-[debug] Initial set of included nodes: chat.actors.StartCluster
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.StartCluster)
-[debug] None of the modified names appears in source file of chat.gui.StartApp. This dependency is not being considered for invalidation.
-[debug] Change NamesChange(chat.actors.StartCluster,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.StartCluster has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.StartCluster)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.PublishMessage...
-[debug] Initial set of included nodes: chat.actors.PublishMessage
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.PublishMessage)
-[debug] Change NamesChange(chat.actors.PublishMessage,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.PublishMessage has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.PublishMessage)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.ChatStorage...
-[debug] Initial set of included nodes: chat.actors.ChatStorage
-[debug] Including chat.actors.JavaFxChatActor by chat.actors.ChatStorage
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.JavaFxChatActor, chat.actors.ChatStorage)
-[debug] The following modified names cause invalidation of chat.actors.MessageManagement: Set(UsedName(getRef,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(asInstanceOf,[Default]), UsedName(appendStory,[Default]), UsedName(appendPublishStory,[Default]), UsedName(getUserName,[Default]), UsedName(getAllUserRefs,[Default]))
-[debug] The following modified names cause invalidation of chat.gui.ChatView: Set(UsedName(defaultRoom,[Default]))
-[debug] None of the modified names appears in source file of chat.actors.StartCluster. This dependency is not being considered for invalidation.
-[debug] The following modified names cause invalidation of chat.gui.ChatWindow: Set(UsedName(appendStoryToMyself,[Default]), UsedName(getAllUserNames,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(defaultRoom,[Default]), UsedName(currentName,[Default]), UsedName(publishStory,[Default]))
-[debug] The following modified names cause invalidation of chat.actors.UserManagement: Set(UsedName(getAllUserNames,[Default]), UsedName(==,[Default]), UsedName(toString,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getUserName,[Default]), UsedName(currentName,[Default]), UsedName(getAllUserRefs,[Default]))
-[debug] The following modified names cause invalidation of chat.gui.AuthorizationWindow: Set(UsedName(==,[Default]), UsedName(currentName,[Default]))
-[debug] The following modified names cause invalidation of chat.actors.MessageManagement: Set(UsedName(getRef,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(asInstanceOf,[Default]), UsedName(appendStory,[Default]), UsedName(appendPublishStory,[Default]), UsedName(getUserName,[Default]), UsedName(getAllUserRefs,[Default]))
-[debug] The following modified names cause invalidation of chat.gui.ChatView: Set(UsedName(defaultRoom,[Default]))
-[debug] The following modified names cause invalidation of chat.actors.JavaFxChatActor: Set(UsedName(stories,[Default]), UsedName(ChatStorage,[Default]), UsedName(currentName,[Default]), UsedName(users,[Default]))
-[debug] The following modified names cause invalidation of chat.gui.ChatWindow: Set(UsedName(appendStoryToMyself,[Default]), UsedName(getAllUserNames,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(defaultRoom,[Default]), UsedName(currentName,[Default]), UsedName(publishStory,[Default]))
-[debug] The following modified names cause invalidation of chat.actors.UserManagement: Set(UsedName(getAllUserNames,[Default]), UsedName(==,[Default]), UsedName(toString,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getUserName,[Default]), UsedName(currentName,[Default]), UsedName(getAllUserRefs,[Default]))
-[debug] Change NamesChange(chat.actors.ChatStorage,ModifiedNames(changes = UsedName(stories,[Default]), UsedName(removeStory,[Default]), UsedName(clone,[Default]), UsedName(appendStoryToMyself,[Default]), UsedName(getRef,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(getAllUserNames,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(appendStory,[Default]), UsedName(appendPublishStory,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(defaultRoom,[Default]), UsedName(ChatStorage,[Default]), UsedName(getUserName,[Default]), UsedName(eq,[Default]), UsedName(currentName,[Default]), UsedName(users,[Default]), UsedName(synchronized,[Default]), UsedName(getAllUserRefs,[Default]), UsedName(getClass,[Default]), UsedName(publishStory,[Default]))) invalidates 7 classes due to The chat.actors.ChatStorage has the following regular definitions changed:
-[debug] 	UsedName(stories,[Default]), UsedName(removeStory,[Default]), UsedName(clone,[Default]), UsedName(appendStoryToMyself,[Default]), UsedName(getRef,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(getAllUserNames,[Default]), UsedName(getStory,[Default]), UsedName(getPublishStory,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(appendStory,[Default]), UsedName(appendPublishStory,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(defaultRoom,[Default]), UsedName(ChatStorage,[Default]), UsedName(getUserName,[Default]), UsedName(eq,[Default]), UsedName(currentName,[Default]), UsedName(users,[Default]), UsedName(synchronized,[Default]), UsedName(getAllUserRefs,[Default]), UsedName(getClass,[Default]), UsedName(publishStory,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.JavaFxChatActor, chat.actors.ChatStorage)
-[debug] 	> 
-[debug] 	> by member reference: Set(chat.actors.MessageManagement, chat.gui.ChatView, chat.actors.JavaFxChatActor, chat.gui.ChatWindow, chat.actors.UserManagement, chat.gui.AuthorizationWindow)
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.Login...
-[debug] Initial set of included nodes: chat.actors.Login
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.Login)
-[debug] Change NamesChange(chat.actors.Login,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.Login has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.Login)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.PrivateMessage...
-[debug] Initial set of included nodes: chat.actors.PrivateMessage
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.PrivateMessage)
-[debug] Change NamesChange(chat.actors.PrivateMessage,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The chat.actors.PrivateMessage has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.PrivateMessage)
-[debug] 	> 
-[debug] 	> 
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.MessageManagement...
-[debug] Initial set of included nodes: chat.actors.MessageManagement
-[debug] Including chat.actors.JavaFxChatActor by chat.actors.MessageManagement
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.MessageManagement, chat.actors.JavaFxChatActor)
-[debug] None of the modified names appears in source file of chat.actors.JavaFxChatActor. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.gui.ChatWindow. This dependency is not being considered for invalidation.
-[debug] The following modified names cause invalidation of chat.actors.MessageManagement: Set(UsedName(getRef,[Default]), UsedName(getUserName,[Default]), UsedName(getAllUserRefs,[Default]))
-[debug] None of the modified names appears in source file of chat.gui.ChatView. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.actors.StartCluster. This dependency is not being considered for invalidation.
-[debug] None of the modified names appears in source file of chat.gui.ChatWindow. This dependency is not being considered for invalidation.
-[debug] The following modified names cause invalidation of chat.actors.UserManagement: Set(UsedName(getUserName,[Default]), UsedName(getAllUserRefs,[Default]))
-[debug] None of the modified names appears in source file of chat.gui.AuthorizationWindow. This dependency is not being considered for invalidation.
-[debug] Change NamesChange(chat.actors.MessageManagement,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(getRef,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getUserName,[Default]), UsedName(getAllUserRefs,[Default]), UsedName(getClass,[Default]))) invalidates 3 classes due to The chat.actors.MessageManagement has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(getRef,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getUserName,[Default]), UsedName(getAllUserRefs,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.MessageManagement, chat.actors.JavaFxChatActor)
-[debug] 	> 
-[debug] 	> by member reference: Set(chat.actors.MessageManagement, chat.actors.UserManagement)
-[debug]         
-[debug] Invalidating (transitively) by inheritance from chat.actors.Event...
-[debug] Initial set of included nodes: chat.actors.Event
-[debug] Including chat.actors.Logged by chat.actors.Event
-[debug] Including chat.actors.Logout by chat.actors.Event
-[debug] Including chat.actors.Login by chat.actors.Event
-[debug] Including chat.actors.Unlogged by chat.actors.Event
-[debug] Invalidated by transitive inheritance dependency: Set(chat.actors.Logged, chat.actors.Login, chat.actors.Event, chat.actors.Unlogged, chat.actors.Logout)
-[debug] Change NamesChange(chat.actors.Event,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]))) invalidates 5 classes due to The chat.actors.Event has the following regular definitions changed:
-[debug] 	UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]).
-[debug] 	> by transitive inheritance: Set(chat.actors.Logged, chat.actors.Login, chat.actors.Event, chat.actors.Unlogged, chat.actors.Logout)
 [debug] 	> 
 [debug] 	> 
 [debug]         

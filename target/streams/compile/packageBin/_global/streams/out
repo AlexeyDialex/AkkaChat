@@ -1,5 +1,7 @@
 [debug] Packaging D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\alekschat_2.13-0.1.jar ...
 [debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\application.conf
 [debug] 	chat
 [debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat
 [debug] 	chat\actors
@@ -124,10 +126,10 @@
 [debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat\gui\InitWindow.class
 [debug] 	chat\gui\InitWindow2.class
 [debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat\gui\InitWindow2.class
-[debug] 	chat\gui\StartApp$.class
-[debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat\gui\StartApp$.class
-[debug] 	chat\gui\StartApp.class
-[debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat\gui\StartApp.class
+[debug] 	chat\gui\StartWindow$.class
+[debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat\gui\StartWindow$.class
+[debug] 	chat\gui\StartWindow.class
+[debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat\gui\StartWindow.class
 [debug] 	chat\GUIExecutorService.class
 [debug] 	  D:\MyJava\!Scala\AlexAkkaChat\target\scala-2.13\classes\chat\GUIExecutorService.class
 [debug] 	chat\JavaFxActor$$anonfun$receive$1.class
